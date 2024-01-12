@@ -5,10 +5,19 @@ import "../navbar/Navbar.css"
 const Navbar = () => {
   return (
     <div>
-      <div>
-        <div style={{display:"flex", alignItems: "center", opacity: 0.7, height:60}}>
-          <div> <PhoneIcon /></div>
-          <div><h4>1122334455</h4></div>
+      <div style={{display:"flex", justifyContent: "space-around", marginTop:10, marginBottom:10}}>
+        <div className="datosContainer">
+          <h4 className="datosNavbar2">Tel: (011)4451-1111 y (011)4692-2222</h4>
+          <h4 className="datosNavbar2">Whatsapp: +54 9 11 2233 4455</h4>
+          <h4 className="datosNavbar2">veterinaria@gmail.com</h4>
+        </div>
+        <div className="datosContainer">
+          <h4 className="datosNavbar">Dirección</h4>
+          <h4 className="datosNavbar2">Avenida siempre viva 1234</h4>
+          <h4 className="datosNavbar2">San Miguel-Buenos Aires</h4>
+        </div>
+        <div className="atencionNavbarContainer" style={{display:"flex", alignItems:"center"}}>
+          <h4 className="atencionNavbar">Atención las 24hs</h4>
         </div>
       </div>
       <div>

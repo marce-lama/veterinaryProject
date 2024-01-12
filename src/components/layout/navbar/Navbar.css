@@ -1,3 +1,30 @@
 .myClass {
     background-color: rgb(255, 175, 175)
 }
+
+.datosContainer{
+    text-align: center;
+}
+
+.datosNavbar{
+    color: dimgray;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+.datosNavbar2{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.atencionNavbar{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+.atencionNavbarContainer{
+    background-color: red;
+    border-radius: 50%;
+}
