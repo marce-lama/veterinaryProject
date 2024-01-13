@@ -1,6 +1,5 @@
 .myClass {
-    background-color: rgb(255, 175, 175)
-}
+    background-image: linear-gradient(to right, rgb(255,175,175), rgb(160, 160, 160))}
 
 .datosContainer{
     text-align: center;
