@@ -40,7 +40,53 @@ const Home = () => {
         </div>
       </div>
       <div>
-        <h1>aca van los iconos</h1>
+        <div className='divTituloServicio' style={{marginTop:80}}><h2 className='tituloServicio'>Servicios</h2></div>
+        <div class="container text-center" style={{marginTop:50}}>
+          <div class="row row-cols-3">
+            <div class="col">
+              <img className='imgServicio' src="https://res.cloudinary.com/dhdhzwlz9/image/upload/v1705284067/veterinaryProject/Sin-t%C3%ADtulo-1_ypstvn.png" alt="" />
+              <p className='nombreServicio'>Clínica</p>
+              <div className='contenedorDescripcion'>
+                <p className='descripcionServicio'>Clínica Veterinaria Amigos de las Mascotas: Un hogar lejos del hogar para tus amigos de cuatro patas. Nuestro equipo de expertos veterinarios se dedica a proporcionar atención médica de alta calidad, desde chequeos rutinarios hasta cirugías especializadas. Con servicios que incluyen diagnósticos, tratamientos, vacunaciones, y cuidado preventivo, nos esforzamos por mantener a tus mascotas saludables y felices. ¡Ven y experimenta el cuidado compasivo que tus mascotas se merecen!</p>
+              </div>
+            </div>
+            <div class="col">
+              <img className='imgServicio' src="https://res.cloudinary.com/dhdhzwlz9/image/upload/v1705284067/veterinaryProject/Sin-t%C3%ADtulo-1_ypstvn.png" alt="" />
+              <p className='nombreServicio'>Cirugía General</p>
+              <div className='contenedorDescripcion'>
+                <p className='descripcionServicio'>Clínica Veterinaria Amigos de las Mascotas: Un hogar lejos del hogar para tus amigos de cuatro patas. Nuestro equipo de expertos veterinarios se dedica a proporcionar atención médica de alta calidad, desde chequeos rutinarios hasta cirugías especializadas. Con servicios que incluyen diagnósticos, tratamientos, vacunaciones, y cuidado preventivo, nos esforzamos por mantener a tus mascotas saludables y felices. ¡Ven y experimenta el cuidado compasivo que tus mascotas se merecen!</p>
+              </div>
+            </div>
+            <div class="col">
+              <img className='imgServicio' src="https://res.cloudinary.com/dhdhzwlz9/image/upload/v1705284067/veterinaryProject/Sin-t%C3%ADtulo-1_ypstvn.png" alt="" />
+              <p className='nombreServicio'>Ecografía</p>
+              <div className='contenedorDescripcion'>
+                <p className='descripcionServicio'>Clínica Veterinaria Amigos de las Mascotas: Un hogar lejos del hogar para tus amigos de cuatro patas. Nuestro equipo de expertos veterinarios se dedica a proporcionar atención médica de alta calidad, desde chequeos rutinarios hasta cirugías especializadas. Con servicios que incluyen diagnósticos, tratamientos, vacunaciones, y cuidado preventivo, nos esforzamos por mantener a tus mascotas saludables y felices. ¡Ven y experimenta el cuidado compasivo que tus mascotas se merecen!</p>
+              </div>
+            </div>
+            <div class="col">
+              <img className='imgServicio' src="https://res.cloudinary.com/dhdhzwlz9/image/upload/v1705284067/veterinaryProject/Sin-t%C3%ADtulo-1_ypstvn.png" alt="" />
+              <p className='nombreServicio'>Radiología</p>
+              <div className='contenedorDescripcion'>
+                <p className='descripcionServicio'>Clínica Veterinaria Amigos de las Mascotas: Un hogar lejos del hogar para tus amigos de cuatro patas. Nuestro equipo de expertos veterinarios se dedica a proporcionar atención médica de alta calidad, desde chequeos rutinarios hasta cirugías especializadas. Con servicios que incluyen diagnósticos, tratamientos, vacunaciones, y cuidado preventivo, nos esforzamos por mantener a tus mascotas saludables y felices. ¡Ven y experimenta el cuidado compasivo que tus mascotas se merecen!</p>
+              </div>
+            </div>
+            <div class="col">
+              <img className='imgServicio' src="https://res.cloudinary.com/dhdhzwlz9/image/upload/v1705284067/veterinaryProject/Sin-t%C3%ADtulo-1_ypstvn.png" alt="" />
+              <p className='nombreServicio'>Internación</p>
+              <div className='contenedorDescripcion'>
+                <p className='descripcionServicio'>Clínica Veterinaria Amigos de las Mascotas: Un hogar lejos del hogar para tus amigos de cuatro patas. Nuestro equipo de expertos veterinarios se dedica a proporcionar atención médica de alta calidad, desde chequeos rutinarios hasta cirugías especializadas. Con servicios que incluyen diagnósticos, tratamientos, vacunaciones, y cuidado preventivo, nos esforzamos por mantener a tus mascotas saludables y felices. ¡Ven y experimenta el cuidado compasivo que tus mascotas se merecen!</p>
+              </div>
+            </div>
+            <div class="col">
+              <img className='imgServicio' src="https://res.cloudinary.com/dhdhzwlz9/image/upload/v1705284067/veterinaryProject/Sin-t%C3%ADtulo-1_ypstvn.png" alt="" />
+              <p className='nombreServicio'>Laboratorio</p>
+              <div className='contenedorDescripcion'>
+                <p className='descripcionServicio'>Clínica Veterinaria Amigos de las Mascotas: Un hogar lejos del hogar para tus amigos de cuatro patas. Nuestro equipo de expertos veterinarios se dedica a proporcionar atención médica de alta calidad, desde chequeos rutinarios hasta cirugías especializadas. Con servicios que incluyen diagnósticos, tratamientos, vacunaciones, y cuidado preventivo, nos esforzamos por mantener a tus mascotas saludables y felices. ¡Ven y experimenta el cuidado compasivo que tus mascotas se merecen!</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
