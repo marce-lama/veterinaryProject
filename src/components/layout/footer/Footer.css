@@ -1,0 +1,9 @@
+.contenedorFooter {
+  margin-top: 50px;
+  background-image: linear-gradient(
+    to left,
+    rgb(255, 175, 175),
+    rgb(160, 160, 160)
+  );
+  height: 200px;
+}
