@@ -5,6 +5,16 @@
     text-align: center;
 }
 
+.myClass2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.myClass3 {
+    text-align: center;
+}
+
 
 .datosNavbar{
     color: rgb(255,175,175) /*dimgray*/;

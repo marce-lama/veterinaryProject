@@ -22,36 +22,19 @@ const Navbar = () => {
       </div>
       <div>
         <div>
-          <nav className="navbar navbar-expand-lg myClass">
-            <div className="container-fluid ">
-              <div className="collapse navbar-collapse" id="navbarNav"  >
-                <ul className="navbar-nav">
-                  <li className="nav-item">
-                    <a className="nav-link" aria-current="page" href="#">
-                      HOME
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">
-                      SERVICIOS
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">
-                      CUERPO MEDICO
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">
-                      CONSEJOS
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">
-                      CONTACTO
-                    </a>
-                  </li>
-                </ul>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary myClass">
+            <div class="container-fluid justify-content-center">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav myClass2">
+                  <a class="nav-link myClass3" href="#">HOME</a>
+                  <a class="nav-link myClass3" href="#">SERVICIOS</a>
+                  <a class="nav-link myClass3" href="#">CUERPO MEDICO</a>
+                  <a class="nav-link myClass3" href="#">CONSEJOS</a>
+                  <a class="nav-link myClass3" href="#">CONTACTO</a>
+                </div>
               </div>
             </div>
           </nav>
